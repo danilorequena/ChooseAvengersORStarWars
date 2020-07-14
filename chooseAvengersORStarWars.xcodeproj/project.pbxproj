@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFD1F8D824BE12A500748A4B /* chooseAvengersORStarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1F8D724BE12A500748A4B /* chooseAvengersORStarWarsApp.swift */; };
+		FFD1F8DA24BE12A500748A4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1F8D924BE12A500748A4B /* ContentView.swift */; };
+		FFD1F8DC24BE12A700748A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD1F8DB24BE12A700748A4B /* Assets.xcassets */; };
+		FFD1F8DF24BE12A700748A4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD1F8DE24BE12A700748A4B /* Preview Assets.xcassets */; };
+		FFD1F8EA24BE12A800748A4B /* chooseAvengersORStarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1F8E924BE12A800748A4B /* chooseAvengersORStarWarsTests.swift */; };
+		FFD1F8F524BE12A800748A4B /* chooseAvengersORStarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1F8F424BE12A800748A4B /* chooseAvengersORStarWarsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD1F8E624BE12A800748A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD1F8CC24BE12A500748A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD1F8D324BE12A500748A4B;
+			remoteInfo = chooseAvengersORStarWars;
+		};
+		FFD1F8F124BE12A800748A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD1F8CC24BE12A500748A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD1F8D324BE12A500748A4B;
+			remoteInfo = chooseAvengersORStarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFD1F8D424BE12A500748A4B /* chooseAvengersORStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chooseAvengersORStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD1F8D724BE12A500748A4B /* chooseAvengersORStarWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseAvengersORStarWarsApp.swift; sourceTree = "<group>"; };
+		FFD1F8D924BE12A500748A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFD1F8DB24BE12A700748A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD1F8DE24BE12A700748A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFD1F8E024BE12A700748A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD1F8E524BE12A800748A4B /* chooseAvengersORStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chooseAvengersORStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD1F8E924BE12A800748A4B /* chooseAvengersORStarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseAvengersORStarWarsTests.swift; sourceTree = "<group>"; };
+		FFD1F8EB24BE12A800748A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD1F8F024BE12A800748A4B /* chooseAvengersORStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chooseAvengersORStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD1F8F424BE12A800748A4B /* chooseAvengersORStarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseAvengersORStarWarsUITests.swift; sourceTree = "<group>"; };
+		FFD1F8F624BE12A800748A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD1F8D124BE12A500748A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1F8E224BE12A800748A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1F8ED24BE12A800748A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFD1F8CB24BE12A500748A4B = {
+			isa = PBXGroup;
+			children = (
+				FFD1F8D624BE12A500748A4B /* chooseAvengersORStarWars */,
+				FFD1F8E824BE12A800748A4B /* chooseAvengersORStarWarsTests */,
+				FFD1F8F324BE12A800748A4B /* chooseAvengersORStarWarsUITests */,
+				FFD1F8D524BE12A500748A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD1F8D524BE12A500748A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1F8D424BE12A500748A4B /* chooseAvengersORStarWars.app */,
+				FFD1F8E524BE12A800748A4B /* chooseAvengersORStarWarsTests.xctest */,
+				FFD1F8F024BE12A800748A4B /* chooseAvengersORStarWarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD1F8D624BE12A500748A4B /* chooseAvengersORStarWars */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1F8D724BE12A500748A4B /* chooseAvengersORStarWarsApp.swift */,
+				FFD1F8D924BE12A500748A4B /* ContentView.swift */,
+				FFD1F8DB24BE12A700748A4B /* Assets.xcassets */,
+				FFD1F8E024BE12A700748A4B /* Info.plist */,
+				FFD1F8DD24BE12A700748A4B /* Preview Content */,
+			);
+			path = chooseAvengersORStarWars;
+			sourceTree = "<group>";
+		};
+		FFD1F8DD24BE12A700748A4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1F8DE24BE12A700748A4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFD1F8E824BE12A800748A4B /* chooseAvengersORStarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1F8E924BE12A800748A4B /* chooseAvengersORStarWarsTests.swift */,
+				FFD1F8EB24BE12A800748A4B /* Info.plist */,
+			);
+			path = chooseAvengersORStarWarsTests;
+			sourceTree = "<group>";
+		};
+		FFD1F8F324BE12A800748A4B /* chooseAvengersORStarWarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1F8F424BE12A800748A4B /* chooseAvengersORStarWarsUITests.swift */,
+				FFD1F8F624BE12A800748A4B /* Info.plist */,
+			);
+			path = chooseAvengersORStarWarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD1F8D324BE12A500748A4B /* chooseAvengersORStarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD1F8F924BE12A800748A4B /* Build configuration list for PBXNativeTarget "chooseAvengersORStarWars" */;
+			buildPhases = (
+				FFD1F8D024BE12A500748A4B /* Sources */,
+				FFD1F8D124BE12A500748A4B /* Frameworks */,
+				FFD1F8D224BE12A500748A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chooseAvengersORStarWars;
+			productName = chooseAvengersORStarWars;
+			productReference = FFD1F8D424BE12A500748A4B /* chooseAvengersORStarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFD1F8E424BE12A800748A4B /* chooseAvengersORStarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD1F8FC24BE12A800748A4B /* Build configuration list for PBXNativeTarget "chooseAvengersORStarWarsTests" */;
+			buildPhases = (
+				FFD1F8E124BE12A800748A4B /* Sources */,
+				FFD1F8E224BE12A800748A4B /* Frameworks */,
+				FFD1F8E324BE12A800748A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD1F8E724BE12A800748A4B /* PBXTargetDependency */,
+			);
+			name = chooseAvengersORStarWarsTests;
+			productName = chooseAvengersORStarWarsTests;
+			productReference = FFD1F8E524BE12A800748A4B /* chooseAvengersORStarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFD1F8EF24BE12A800748A4B /* chooseAvengersORStarWarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD1F8FF24BE12A800748A4B /* Build configuration list for PBXNativeTarget "chooseAvengersORStarWarsUITests" */;
+			buildPhases = (
+				FFD1F8EC24BE12A800748A4B /* Sources */,
+				FFD1F8ED24BE12A800748A4B /* Frameworks */,
+				FFD1F8EE24BE12A800748A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD1F8F224BE12A800748A4B /* PBXTargetDependency */,
+			);
+			name = chooseAvengersORStarWarsUITests;
+			productName = chooseAvengersORStarWarsUITests;
+			productReference = FFD1F8F024BE12A800748A4B /* chooseAvengersORStarWarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD1F8CC24BE12A500748A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FFD1F8D324BE12A500748A4B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					FFD1F8E424BE12A800748A4B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = FFD1F8D324BE12A500748A4B;
+					};
+					FFD1F8EF24BE12A800748A4B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = FFD1F8D324BE12A500748A4B;
+					};
+				};
+			};
+			buildConfigurationList = FFD1F8CF24BE12A500748A4B /* Build configuration list for PBXProject "chooseAvengersORStarWars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD1F8CB24BE12A500748A4B;
+			productRefGroup = FFD1F8D524BE12A500748A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD1F8D324BE12A500748A4B /* chooseAvengersORStarWars */,
+				FFD1F8E424BE12A800748A4B /* chooseAvengersORStarWarsTests */,
+				FFD1F8EF24BE12A800748A4B /* chooseAvengersORStarWarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD1F8D224BE12A500748A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1F8DF24BE12A700748A4B /* Preview Assets.xcassets in Resources */,
+				FFD1F8DC24BE12A700748A4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1F8E324BE12A800748A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1F8EE24BE12A800748A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD1F8D024BE12A500748A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1F8DA24BE12A500748A4B /* ContentView.swift in Sources */,
+				FFD1F8D824BE12A500748A4B /* chooseAvengersORStarWarsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1F8E124BE12A800748A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1F8EA24BE12A800748A4B /* chooseAvengersORStarWarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1F8EC24BE12A800748A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1F8F524BE12A800748A4B /* chooseAvengersORStarWarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD1F8E724BE12A800748A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD1F8D324BE12A500748A4B /* chooseAvengersORStarWars */;
+			targetProxy = FFD1F8E624BE12A800748A4B /* PBXContainerItemProxy */;
+		};
+		FFD1F8F224BE12A800748A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD1F8D324BE12A500748A4B /* chooseAvengersORStarWars */;
+			targetProxy = FFD1F8F124BE12A800748A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFD1F8F724BE12A800748A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD1F8F824BE12A800748A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD1F8FA24BE12A800748A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"chooseAvengersORStarWars/Preview Content\"";
+				DEVELOPMENT_TEAM = SM9KCJGMUP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = chooseAvengersORStarWars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.chooseAvengersORStarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD1F8FB24BE12A800748A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"chooseAvengersORStarWars/Preview Content\"";
+				DEVELOPMENT_TEAM = SM9KCJGMUP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = chooseAvengersORStarWars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.chooseAvengersORStarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFD1F8FD24BE12A800748A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM9KCJGMUP;
+				INFOPLIST_FILE = chooseAvengersORStarWarsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.chooseAvengersORStarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chooseAvengersORStarWars.app/chooseAvengersORStarWars";
+			};
+			name = Debug;
+		};
+		FFD1F8FE24BE12A800748A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM9KCJGMUP;
+				INFOPLIST_FILE = chooseAvengersORStarWarsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.chooseAvengersORStarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chooseAvengersORStarWars.app/chooseAvengersORStarWars";
+			};
+			name = Release;
+		};
+		FFD1F90024BE12A800748A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM9KCJGMUP;
+				INFOPLIST_FILE = chooseAvengersORStarWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.chooseAvengersORStarWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chooseAvengersORStarWars;
+			};
+			name = Debug;
+		};
+		FFD1F90124BE12A800748A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM9KCJGMUP;
+				INFOPLIST_FILE = chooseAvengersORStarWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.chooseAvengersORStarWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chooseAvengersORStarWars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD1F8CF24BE12A500748A4B /* Build configuration list for PBXProject "chooseAvengersORStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1F8F724BE12A800748A4B /* Debug */,
+				FFD1F8F824BE12A800748A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD1F8F924BE12A800748A4B /* Build configuration list for PBXNativeTarget "chooseAvengersORStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1F8FA24BE12A800748A4B /* Debug */,
+				FFD1F8FB24BE12A800748A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD1F8FC24BE12A800748A4B /* Build configuration list for PBXNativeTarget "chooseAvengersORStarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1F8FD24BE12A800748A4B /* Debug */,
+				FFD1F8FE24BE12A800748A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD1F8FF24BE12A800748A4B /* Build configuration list for PBXNativeTarget "chooseAvengersORStarWarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1F90024BE12A800748A4B /* Debug */,
+				FFD1F90124BE12A800748A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD1F8CC24BE12A500748A4B /* Project object */;
+}
